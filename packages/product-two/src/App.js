@@ -2,7 +2,7 @@ import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
 import { Button } from "ui-components";
-import { formatDate, usePeos } from "common-utils";
+import { formatDate, useKati } from "common-utils";
 
 function App() {
   const kati = useKati("kati apo to product 2");
