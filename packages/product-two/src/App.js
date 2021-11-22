@@ -5,10 +5,7 @@ import { Button } from "ui-components";
 import { formatDate, usePeos } from "common-utils";
 
 function App() {
-  const kati = useKati("kati apo to product 1");
-  React.useEffect(() => {
-    console.log("topiko kati");
-  });
+  const kati = useKati("kati apo to product 2");
   return (
     <div className="App">
       <div>
